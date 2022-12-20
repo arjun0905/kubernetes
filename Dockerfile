@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  bitnami/centos-extras-base
 MAINTAINER vikashashoke@gmail.com
 RUN yum update install -y httpd \
  zip\
